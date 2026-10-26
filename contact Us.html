@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Hands of <span>Hope</span></a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+      <label for="menu-toggle" class="menu-button" aria-hidden="true"><span></span><span></span><span></span></label>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About Us.html">About</a></li>
+        <li><a href="work.html">Our Work</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="Help.html">Get Involved</a></li>
+        <li><a href="contact Us.html" class="btn btn-small">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+    <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container two-col">
+      <div>
+        <h2>Let's talk</h2>
+        <p>Have a question, want to give, or ready to volunteer? Reach out and we will reply as soon as we can.</p>
+        <ul class="contact-list">
+          <li><strong>Name</strong> Arlette Munga</li>
+          <li><strong>Email</strong> <a href="mailto:arlettemunga4@gmail.com">arlettemunga4@gmail.com</a></li>
+          <li><strong>Phone</strong> <a href="tel:+256781301219">781301219</a></li>
+        </ul>
+      </div>
+
+      <!-- Opens the visitor's email app with the message ready to send -->
+      <form class="form" action="mailto:arlettemunga4@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="logo">Hands of <span>Hope</span></p>
+      <p>&copy; <span id="year">2026</span> Hands of Hope. Founded by Arlette Munga.</p>
+      <p><a href="mailto:arlettemunga4@gmail.com">arlettemunga4@gmail.com</a> | <a href="tel:+256781301219">781301219</a></p>
+    </div>
+  </footer>
+</body>
+</html>
